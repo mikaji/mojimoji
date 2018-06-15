@@ -10,5 +10,7 @@ require "mojimoji"
 # require "pry"
 # Pry.start
 
+using Mojimoji
+
 require "irb"
 IRB.start(__FILE__)
