@@ -1,4 +1,5 @@
 require "mojimoji/version"
+require "moji"
 
 module Mojimoji
   refine String do
