@@ -1,8 +1,6 @@
 # Mojimoji
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/mojimoji`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Add awesome methods to String for formatting waste spaces & width.
 
 ## Installation
 
@@ -22,7 +20,24 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### String#to_em, String#strip_all_spaces, String#strip_all_spaces_and_to_em
+
+```rb
+using Mojimoji
+
+string = 'moji moji'
+
+string.to_em
+#=> "ｍｏｊｉ　ｍｏｊｉ"
+
+string.strip_all_spaces
+#=> "mojimoji"
+
+string.strip_all_spaces_and_to_em
+#=> "ｍｏｊｉｍｏｊｉ"
+```
+
+
 
 ## Development
 
@@ -32,7 +47,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/mojimoji.
+Bug reports and pull requests are welcome on GitHub at https://github.com/mikaji/mojimoji.
 
 ## License
 
