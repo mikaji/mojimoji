@@ -37,8 +37,6 @@ string.strip_all_spaces_and_to_em
 #=> "ｍｏｊｉｍｏｊｉ"
 ```
 
-
-
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
